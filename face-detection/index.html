@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src=lib/jquery/jquery-3.2.1.js></script>
+  <script defer src="lib/face-api/face-api.min.js"></script>
+  <script defer src="index.js"></script>
+  <script defer src="logic.js"></script>
+  <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1 id="loading">LOADING</h1>
+  <div class="loader"></div>
+  <div><button style="display: none" id="buttonhide">STOP</button></div>
+  <div><button id="buttonstart">start</button></div>
+  <div id="dvideo" style="position: absolute;display: none;"><video id="video" width="350" height="320" autoplay muted></video></div>
+  <div id=output></div>
+</body>
+
+</html>
